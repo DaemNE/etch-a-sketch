@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="canvasButtons">
+        <button onclick="setCanvasWhite()" id="setCanvasWhite">White canvas</button>
+        <button onclick="setCanvasBlack()" id="setCanvasBlack">Black canvas</button>
+        <button onclick="setCanvasRed()" id="setCanvasRed">Red canvas</button>
+        <button onclick="setCanvasBlue()" id="setCanvasBlue">Blue canvas</button>
+        <div id="isLucky"></div>
+    </div>
+    <div id="container"></div>
+    <div id="buttons">
+        <div>
+            <button onclick="clearCanvas()" >Reset</button>
+        </div>
+        <div id= "colours">
+            <button onclick="setWhite()" id="setWhiteButton">Eraser</button>
+            <button onclick="setYellow()" id="setYellowButton">Yellow</button>
+            <button onclick="setBlue()" id="setBlueButton">Blue</button>
+            <button onclick="setRainbow()" id="setRainbowButton">Rainbow</button>
+        </div>
+        <div>
+            <button onclick="setResolution256()" id="set16x16">16 x 16</button>
+            <button onclick="setResolution1024()" id="set32x32">32 x 32</button>
+            <button onclick="setResolution4096()" id="set64x64">64 x 64</button>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
